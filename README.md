@@ -24,7 +24,7 @@ End up with an Intel hex file. "main.ihx" file placed in the root folder directo
 Original FreeRTOS project folder structure retained but removed the other ports in the project. They still
 exist in the zip.
 
-Just need the path added for your Make and SDCC binary. Update the SDDC_Path.bat for your local instance. 
+Just need the path added for your Make and SDCC binary. Update the Compile.bat for your local instance. 
 For completeness, GNU Make version used was 64 bit 4.3 on W10 64 bit.
 
 https://www.cygwin.com
