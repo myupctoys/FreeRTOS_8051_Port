@@ -43,8 +43,9 @@ treated as a starting point.
 #3 Install GNU make (not included), I used GNU make 4.3 in Cygwin 64 bit on W10.<BR>
 #4 Modify the Compile.bat file in the Cygnal demo directory to point to SDCC and your Make binary "bin" folders.<BR>
 #5 Run the Compile.bat batch file.<BR>
+Batch file will set the path, clean, then make.
 
-Then command line "make" from the Cygnal Folder. "make clean" cleans out the clutter.
+Command line "make" from the Cygnal Folder. "make clean" cleans out the clutter.
 Should see a screen as below.<BR><BR>
 ![Cygnal_Compile](https://github.com/myupctoys/RTOS/assets/5317221/b34de0b9-3a5d-415b-876b-9609daa3bad2)
 
