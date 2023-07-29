@@ -29,10 +29,11 @@ For completeness, GNU Make version used was 64 bit 4.3 on W10 64 bit.
 
 https://www.cygwin.com
 
-There was a documented issue with cygwin1.dll in relation to SDCC. Exact nature of the problem escapes me,
-and it may not be needed. Have included the dll in case it makes a difference given I have the new dll version 
-on the three locations I've tested the FreeRTOS port out on. If you can't compile properly put/replace 
-the existing dll in the Cygwin64 bin directory.
+Made comment previously about Cygwin having an issue with cygwin1.dll for SDCC. I stand corrected after 
+following through documenting assorted build problems for a separate project. There is no issue 
+realted to SDCC and cygwin1.dll 64 bit. The actual issue was in relation to WinAVR and msys-1.0.dll,
+totally unrelated to the 8051 port. Just wanted to correct the record. As such I have removed the 
+Cygwin1.zip from the repo.
 
 Don’t know if the FreeRTOS binary works, just that it compiles. At least it builds confidence and should only be
 treated as a starting point. 
@@ -40,8 +41,8 @@ treated as a starting point.
 #1 Clone or Zip this Repo locally to your PC.<BR>
 #2 Unzip the SDCC zip to a likely place on your HDD (preferable without spaces in the directory names).<BR>
 #3 Install GNU make (not included), I used GNU make 4.3 in Cygwin 64 bit on W10.<BR>
-#4 Modify the SDCC_Path.bat file in the Cygnal demo directory to point to SDCC and your Make binary "bin" folders.<BR>
-#5 Run the SDCC_Path.bat batch file.<BR>
+#4 Modify the Compile.bat file in the Cygnal demo directory to point to SDCC and your Make binary "bin" folders.<BR>
+#5 Run the Compile.bat batch file.<BR>
 
 Then command line "make" from the Cygnal Folder. "make clean" cleans out the clutter.
 Should see a screen as below.<BR><BR>
