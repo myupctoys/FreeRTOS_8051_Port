@@ -105,6 +105,7 @@
             <Folder name="Compile">
                 <File name="E:\RTOS\KISS_Rtos\rtos\Compile\gdb_howto" />
                 <File name="E:\RTOS\KISS_Rtos\rtos\Compile\Makefile" />
+                <File name="E:\RTOS\KISS_Rtos\rtos\Compile\Compile.bat" />
             </Folder>
             <Folder name="docs">
                 <File name="E:\RTOS\KISS_Rtos\rtos\docs\atmega328p.pdf" />
@@ -113,11 +114,15 @@
                 <File name="E:\RTOS\KISS_Rtos\rtos\inc\common.h" />
                 <File name="E:\RTOS\KISS_Rtos\rtos\inc\task.h" />
                 <File name="E:\RTOS\KISS_Rtos\rtos\inc\util.h" />
+                <File name="E:\RTOS\KISS_Rtos\rtos\inc\init_type_specific.h" />
             </Folder>
             <Folder name="src">
                 <File name="E:\RTOS\KISS_Rtos\rtos\src\main.c" />
                 <File name="E:\RTOS\KISS_Rtos\rtos\src\task.c" />
                 <File name="E:\RTOS\KISS_Rtos\rtos\src\util.c" />
+                <File name="E:\RTOS\KISS_Rtos\rtos\src\atmega64.c" />
+                <File name="E:\RTOS\KISS_Rtos\rtos\src\atmega128.c" />
+                <File name="E:\RTOS\KISS_Rtos\rtos\src\atmega328p.c" />
             </Folder>
             <File name="E:\RTOS\KISS_Rtos\rtos\README.md" />
         </Folder>
